@@ -1,17 +1,34 @@
-# Agent Infra Foundation
+# 🧱 Agent Infra Foundation
 
-Agent Infra Foundation is an open initiative for the infrastructure that makes AI agents safe, reliable, and practical to operate. We focus on the runtime substrate around the model: where agents run, how they access tools and data, how work persists, and how people retain visibility and control.
+Agent Infra Foundation is an open initiative for the reusable technical
+substrate that enables AI agents to act safely, reliably, and continuously in
+real-world environments.
 
-## What we focus on
+Agent infrastructure provides the execution environments, communication,
+state, data access, authority, observability, recovery, evaluation, and human
+control that surround the model. It is not a particular agent application or
+framework; it is the shared foundation on which many agents can be built and
+operated.
 
-- execution environments, sandboxes, and resource controls;
-- agent-to-agent coordination, discovery, and handoffs;
-- permissions, identity, and trusted tool access;
-- durable workflows, state, and recovery; and
-- auditability, observability, and human approval.
+## 🌟 What Agent Infra includes
 
-## This repository
+| Area | What it includes |
+| --- | --- |
+| 🧪 **Execution Environments & Sandboxing** | Sandboxes, browsers, containers, filesystems, process isolation, and resource controls |
+| 🤝 **Agent Communication & Coordination** | A2A protocols, discovery, messaging, delegation, shared context, task routing, and conflict resolution |
+| 🧠 **Memory, Data & Filesystems** | Memory, metadata, artifacts, retrieval, shared state, and agent-native data primitives |
+| 🔑 **Identity, Permissions & Trusted Tools** | Agent identity, delegated authority, credentials, capability-based access, and safe tool interfaces |
+| 🔄 **Durable Workflows & Recovery** | State, checkpoints, retries, scheduling, persistence, and recovery |
+| 🔎 **Observability, Auditability & Provenance** | Logs, traces, replay, action history, provenance, and policy decisions |
+| 🙌 **Human Handoffs & Control** | Approvals, escalation, intervention, context transfer, and accountability |
+| ✅ **Evaluation & Operational Reliability** | Testing, simulation, containment, recovery, consistency, and human-control evaluation |
 
-This repository maintains the [Agent Infra Projects](./README.md) directory: an open, neutral index of projects building these foundations. Contributions that improve the directory are welcome through pull requests; see [CONTRIBUTING.md](./CONTRIBUTING.md) for the submission guidelines.
+## 📚 This repository
 
-We build and document this work in public so the underlying primitives can be inspected, challenged, and extended by the community.
+This repository maintains the [Agent Infra Projects](./README.md) directory:
+an open, neutral index of projects building these foundations. Contributions
+that improve the directory are welcome through pull requests; see
+[CONTRIBUTING.md](./CONTRIBUTING.md) for the submission guidelines.
+
+We build and document this work in public so the underlying primitives can be
+inspected, challenged, and extended by the community.

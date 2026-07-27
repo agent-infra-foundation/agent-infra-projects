@@ -1,10 +1,32 @@
-# Agent Infra Projects
+# 🧱 Agent Infra Projects
 
 [![Contribute](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./CONTRIBUTING.md)
 
-An open index of projects building the infrastructure that lets AI agents run safely, reliably, and collaboratively. We track the execution environments, protocols, data layers, permissions, observability, and workflows that make capable agents practical.
+An open, neutral index of projects building reusable infrastructure for AI
+agents.
 
-## Project index
+Agent infrastructure is the technical substrate that enables agents to
+execute, communicate, maintain state, access tools and data under defined
+authority, recover from failure, remain observable, and return control to
+people when needed.
+
+It is not a particular agent application or framework; it is the shared
+foundation on which many agents can be built and operated.
+
+## 🌟 What Agent Infra includes
+
+| Area | What it includes |
+| --- | --- |
+| 🧪 **Execution Environments & Sandboxing** | Sandboxes, browsers, containers, filesystems, process isolation, and resource controls |
+| 🤝 **Agent Communication & Coordination** | A2A protocols, discovery, messaging, delegation, shared context, task routing, and conflict resolution |
+| 🧠 **Memory, Data & Filesystems** | Memory, metadata, artifacts, retrieval, shared state, and agent-native data primitives |
+| 🔑 **Identity, Permissions & Trusted Tools** | Agent identity, delegated authority, credentials, capability-based access, and safe tool interfaces |
+| 🔄 **Durable Workflows & Recovery** | State, checkpoints, retries, scheduling, persistence, and recovery |
+| 🔎 **Observability, Auditability & Provenance** | Logs, traces, replay, action history, provenance, and policy decisions |
+| 🙌 **Human Handoffs & Control** | Approvals, escalation, intervention, context transfer, and accountability |
+| ✅ **Evaluation & Operational Reliability** | Testing, simulation, containment, recovery, consistency, and human-control evaluation |
+
+## 📚 Project index
 
 | Project | What it does | Focus | Links |
 | --- | --- | --- | --- |
@@ -14,7 +36,7 @@ An open index of projects building the infrastructure that lets AI agents run sa
 | [NoKV](https://nokv.io/) | A metadata control plane for agent workspaces | Filesystem · Metadata · Observability · Artifacts | [Website](https://nokv.io/) · [Source](https://github.com/NoKV-Lab/NoKV) |
 | [ToWow](https://towow.net/) | An open protocol for agent discovery and collaboration | A2A · Agent discovery · Semantic matching · Coordination | [Website](https://towow.net/) |
 
-## Add, update, or remove a project
+## 🙌 Add, update, or remove a project
 
 This index is maintained through pull requests.
 
@@ -25,18 +47,16 @@ This index is maintained through pull requests.
 
 Please use neutral, factual wording and link to official sources. For a removal, explain why the entry should no longer be listed. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the complete guidelines.
 
-## What belongs here
+## ✅ How projects qualify
 
-Projects that materially advance agent infrastructure are in scope, including:
+A project belongs in this directory when its primary contribution is a
+reusable agent-infrastructure capability rather than a single agent
+application, framework, or generic infrastructure product.
 
-- execution environments and sandboxes;
-- agent-to-agent coordination and discovery;
-- agent-native data, filesystem, tool, identity, and permission layers;
-- observability, auditability, and durable workflows; and
-- human approvals and handoffs.
+Maintainers review submissions for agent-infrastructure relevance,
+reusability, accuracy, duplicate entries, neutral language, and reliable
+primary sources.
 
-Maintainers review submissions for relevance, accuracy, duplicate entries, neutral language, and reliable sources.
-
-## License
+## 📄 License
 
 The repository content is available under the [MIT License](./LICENSE).
