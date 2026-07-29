@@ -1,9 +1,13 @@
-# 🧱 Agent Infra Projects
+# 🧱 AI Agent Infrastructure Projects
 
 [![Contribute](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./CONTRIBUTING.md)
 
-An open, neutral index of projects building reusable infrastructure for AI
-agents.
+A curated, vendor-neutral directory of AI agent infrastructure projects
+covering agent runtimes, sandboxes, memory, identity, permissions,
+observability, durable workflows, and agent protocols.
+
+Browse the [interactive project directory](https://agent-infra-foundation.org/projects/)
+or contribute updates to this open index on GitHub.
 
 Agent infrastructure is the technical substrate that enables agents to
 execute, communicate, maintain state, access tools and data under defined
