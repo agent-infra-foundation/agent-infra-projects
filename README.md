@@ -36,6 +36,7 @@ foundation on which many agents can be built and operated.
 | --- | --- | --- | --- |
 | [Brazosd](https://brazosd.com/en/) | Specialist agents and governed cloud workflows | Specialist agents · Multi-agent · Approvals · Security | [Website](https://brazosd.com/en/) |
 | [Ephemeral Sandbox](https://agent-infra-foundation.org/projects/ephemeral-sandbox/) | Open-source agent sandbox infrastructure for parallel coding agents | Agent sandbox · Coding agents · Copy-on-write · Atomic publication | [Website](https://ephemeral-sandbox.com/) · [Source](https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox) · [Evidence](https://ephemeral-sandbox.com/benchmarks/parallel-coding-agents) |
+| [HOL Guard](https://hol.org/guard) | Open-source runtime security layer for AI agents and coding tools | Runtime security · Tool controls · Human approvals · Audit | [Website](https://hol.org/guard) · [Source](https://github.com/hashgraph-online/hol-guard) |
 | [NervaFS](https://nervafs.xyz/) | A governed filesystem workspace for agent runtimes | Filesystem · A2P · Identity · Memory | [Website](https://nervafs.xyz/) |
 | [NoKV](https://nokv.io/) | A metadata control plane for agent workspaces | Filesystem · Metadata · Observability · Artifacts | [Website](https://nokv.io/) · [Source](https://github.com/NoKV-Lab/NoKV) |
 | [ToWow](https://towow.net/) | An open protocol for agent discovery and collaboration | A2A · Agent discovery · Semantic matching · Coordination | [Website](https://towow.net/) |
